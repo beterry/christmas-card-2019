@@ -1,0 +1,16 @@
+.familyMember{
+    display: flex;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.familyMember > div{
+    width: 50%;
+    
+}
+
+.stats{
+    display: flex;
+    flex-wrap: wrap;
+}

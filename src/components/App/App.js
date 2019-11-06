@@ -27,9 +27,9 @@ export default () => (
     <FamilyMember 
       name={'Ben'}
       description={[
-        'Paragraph 1',
-        'Paragraph 2',
-        'Paragraph 3'
+        'Ben did a little traveling this year. In April, he met his girlfriend, Sophie, in Iceland for a week of tours around the island. Sophie was studying abroad in England for the majoriy of the year, so Iceland was a perfect in-between meeting place.',
+        'During the summer months, Ben was training daily to run a half-marathon with Jake. They met to run their race in Punxsutawney in October. The final time was 1:47:26.',
+        'During his annual vaction to OCMD with his buddies from high-school, Ben discovered the yard game, Spike Ball. He spent every Monnday evening afterwards in the park, pllaying until the sun went down. He would love to play with you if you are ever interested.'
       ]}
       stats={[
         {

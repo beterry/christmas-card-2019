@@ -1,0 +1,21 @@
+.selectedImage{
+    width: 100%;
+    text-align: center;
+}
+
+.selectedImage img{
+    width: 100%;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery > div{
+    width: 10%;
+}
+
+.gallery img{
+    width: 100%;
+}

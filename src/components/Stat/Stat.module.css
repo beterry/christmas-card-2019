@@ -1,0 +1,22 @@
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+
+    box-shadow: 0px 0px 6px rgba(0,0,0,.15);
+    border-left: 3px solid green;
+
+    min-width: 150px;
+
+    padding: 10px;
+}
+
+.stat h3{
+    margin: 0;
+}
+
+.stat p{
+    margin: 0;
+}
