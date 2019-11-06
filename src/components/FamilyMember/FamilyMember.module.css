@@ -1,13 +1,20 @@
 .familyMember{
     display: flex;
+    justify-content: space-between;
+
     width: 95%;
     max-width: 1200px;
+
     margin: 0 auto;
 }
 
-.familyMember > div{
-    width: 50%;
+.about{
+    width: 38.5%;
     
+}
+
+.gallery{
+    width: 58.5%;
 }
 
 .stats{

@@ -12,12 +12,16 @@ const Gallery = ({images}) => {
             </div>
             <div className={styles.gallery}>
                 {images.map((image) => 
-                    <div key={`${image.src}`}>
-                        <img
-                            src={image.src}
-                            alt={image.caption}
-                        />
-                    </div>
+                    <div
+                        key={`${image.src}`}
+                        style={{
+                            background: `url(${image.src})`,
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat'
+                        }}
+                        className={styles.unselected}
+                    />
                 )}
             </div>
         </div>

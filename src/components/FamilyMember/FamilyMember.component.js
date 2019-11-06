@@ -9,7 +9,7 @@ import styles from './FamilyMember.module.css'
 
 export default ({name, description, stats, images}) => (
     <section className={styles.familyMember}>
-        <div>
+        <div className={styles.about}>
             <h2>{name}</h2>
             {description.map((para, index) => <p key={`${name} ${index} para`}>{para}</p>)}
             <div className={styles.stats}>
@@ -23,6 +23,9 @@ export default ({name, description, stats, images}) => (
                 )}
             </div>
         </div>
-        <Gallery images={images} />
+        <div className={styles.gallery}>
+            <Gallery images={images} /> 
+        </div>
+        
     </section>
 )

@@ -8,9 +8,10 @@
     box-shadow: 0px 0px 6px rgba(0,0,0,.15);
     border-left: 3px solid green;
 
-    min-width: 150px;
+    min-width: 100px;
 
-    padding: 10px;
+    padding: 20px;
+    margin: 0 20px 20px 0;
 }
 
 .stat h3{

@@ -1,10 +1,12 @@
 .selectedImage{
     width: 100%;
+
     text-align: center;
 }
 
 .selectedImage img{
     width: 100%;
+    border-radius: 20px;
 }
 
 .gallery{
@@ -13,9 +15,15 @@
 }
 
 .gallery > div{
-    width: 10%;
+    width: 15%;
+
+    padding-top: 15%;
+    height: 0;
+    overflow: hidden;
+
+    border-radius: 20px;
 }
 
-.gallery img{
-    width: 100%;
+.unselected{
+    opacity: 0.25;
 }
