@@ -55,23 +55,23 @@ export default () => (
         },
         {
           src: benImage2,
-          caption: 'Caption 2'
+          caption: 'Sophie and Ben enjoying the volcanic waters of the Blue Lagoon'
         },
         {
           src: benImage3,
-          caption: 'Caption 3'
+          caption: `Ben's new (used) Volkswagen Golf TDI`
         },
         {
           src: benImage4,
-          caption: 'Caption 4'
+          caption: 'Ben and his friends enjoying the summer in Ocean City, MD'
         },
         {
           src: benImage5,
-          caption: 'Caption 5'
+          caption: 'Ben and Jake ran their first half marathon in 1:47:26'
         },
         {
           src: benImage6,
-          caption: 'Caption 6'
+          caption: 'Ben in State College playing Spike Ball with his friends'
         }
       ]}  
     />

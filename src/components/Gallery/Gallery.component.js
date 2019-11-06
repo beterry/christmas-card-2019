@@ -12,7 +12,7 @@ const Gallery = ({images}) => {
         <div>
             <div className={styles.selectedImage}>
                 <img src={featured.src} alt={featured.caption} />
-                <p>{images[0].caption}</p>
+                <p>{featured.caption}</p>
             </div>
             <div className={styles.gallery}>
                 {images.map((image, index) => 
@@ -24,7 +24,7 @@ const Gallery = ({images}) => {
                             backgroundPosition: 'center',
                             backgroundRepeat: 'no-repeat'
                         }}
-                        className={image.src === featured.src ? undefined : styles.unselected}
+                        className={image.src === featured.src ? styles.selected : styles.unselected}
                         onClick={(e) => handleNewFeatured(e)}
                         index={index}
                     />

@@ -9,6 +9,10 @@
     border-radius: 20px;
 }
 
+.selectedImage p{
+    margin: 5px 0 20px 0;
+}
+
 .gallery{
     display: flex;
     justify-content: space-between;
@@ -22,8 +26,16 @@
     overflow: hidden;
 
     border-radius: 20px;
+
+    cursor: pointer;
+
+    
 }
 
 .unselected{
     opacity: 0.25;
+}
+
+.selected{
+    opacity: 1;
 }

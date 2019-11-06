@@ -3,21 +3,33 @@
     justify-content: space-between;
 
     width: 95%;
-    max-width: 1200px;
+    max-width: 1440px;
 
-    margin: 0 auto;
+    margin: 0 auto 500px auto;
 }
 
 .about{
     width: 38.5%;
-    
 }
 
 .gallery{
     width: 58.5%;
 }
 
+.about h2{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    color: red;
+    margin: 0 0 20px 0;
+}
+
+.about p{
+    font-size: 14px;
+}
+
 .stats{
     display: flex;
     flex-wrap: wrap;
+
+    margin-top: 30px;
 }
