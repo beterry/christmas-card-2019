@@ -12,6 +12,21 @@ code {
     monospace;
 }
 
+h1{
+  font-family: 'Lobster', cursive;
+  color: #BE2227;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
 p{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;

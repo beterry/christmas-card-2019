@@ -2,17 +2,10 @@ import React from 'react';
 
 // import styles
 import './App.css';
-import 'normalize.css';
 
 //import components
 import Header from '../Header/Header.component.js'
-import FamilyMember from '../FamilyMember/FamilyMember.component'
 import Gallery from '../Gallery/Gallery.component';
-
-//import stat icons
-import runIcon from '../../images/ben/directions_run-24px.svg'
-import computerIcon from '../../images/ben/desktop_mac-24px.svg'
-import movieIcon from '../../images/ben/movie_creation-24px.svg'
 
 //import Ben images
 import benImage1 from '../../images/ben/image-ben-1.jpg'
@@ -127,6 +120,6 @@ export default () => (
         }
       ]}  
     />
-    
+
   </div>
 )
