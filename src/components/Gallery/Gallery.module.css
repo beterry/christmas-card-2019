@@ -1,3 +1,9 @@
+.component{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .selectedImage{
     width: 100%;
 
@@ -10,12 +16,14 @@
 }
 
 .selectedImage p{
-    margin: 5px 0 20px 0;
+    margin: 10px 0 25px 0;
 }
 
 .gallery{
     display: flex;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .gallery > div{

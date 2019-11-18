@@ -9,7 +9,7 @@ const Gallery = ({images}) => {
         setFeatured(images[e.target.getAttribute('index')])
     }
     return (
-        <div>
+        <div className={styles.component}>
             <div className={styles.selectedImage}>
                 <img src={featured.src} alt={featured.caption} />
                 <p>{featured.caption}</p>

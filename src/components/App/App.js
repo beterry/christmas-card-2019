@@ -7,6 +7,7 @@ import 'normalize.css';
 //import components
 import Header from '../Header/Header.component.js'
 import FamilyMember from '../FamilyMember/FamilyMember.component'
+import Gallery from '../Gallery/Gallery.component';
 
 //import stat icons
 import runIcon from '../../images/ben/directions_run-24px.svg'
@@ -21,33 +22,27 @@ import benImage4 from '../../images/ben/image-ben-4.jpg'
 import benImage5 from '../../images/ben/image-ben-5.jpg'
 import benImage6 from '../../images/ben/image-ben-6.png'
 
+//import Jake images
+import jakeImage1 from '../../images/jake/image-jake-1.jpg'
+import jakeImage2 from '../../images/jake/image-jake-2.jpg'
+import jakeImage3 from '../../images/jake/image-jake-3.jpg'
+import jakeImage4 from '../../images/jake/image-jake-4.jpg'
+import jakeImage5 from '../../images/jake/image-jake-5.jpg'
+import jakeImage6 from '../../images/jake/image-jake-6.jpg'
+
+//import Pam & Andy images
+import parentsImage1 from '../../images/pam-andy/image-ap-1.jpg'
+import parentsImage2 from '../../images/pam-andy/image-ap-2.jpg'
+import parentsImage3 from '../../images/pam-andy/image-ap-3.jpg'
+import parentsImage4 from '../../images/pam-andy/image-ap-4.jpg'
+import parentsImage5 from '../../images/pam-andy/image-ap-5.jpg'
+import parentsImage6 from '../../images/pam-andy/image-ap-6.jpg'
+
+
 export default () => (
   <div>
     <Header />
-    <FamilyMember 
-      name={'Ben'}
-      description={[
-        'Ben did a little traveling this year. In April, he met his girlfriend, Sophie, in Iceland for a week of tours around the island. Sophie was studying abroad in England for the majoriy of the year, so Iceland was a perfect in-between meeting place.',
-        'During the summer months, Ben was training daily to run a half-marathon with Jake. They met to run their race in Punxsutawney in October. The final time was 1:47:26.',
-        'During his annual vaction to OCMD with his buddies from high-school, Ben discovered the yard game, Spike Ball. He spent every Monnday evening afterwards in the park, pllaying until the sun went down. He would love to play with you if you are ever interested.'
-      ]}
-      stats={[
-        {
-          icon: runIcon,
-          stat: '780',
-          description: 'Miles ran'
-        },
-        {
-          icon: computerIcon,
-          stat: '100',
-          description: 'Hours of coding tutorials'
-        },
-        {
-          icon: movieIcon,
-          stat: '50',
-          description: 'Movies watched'
-        }
-      ]}
+    <Gallery
       images={[
         {
           src: benImage1,
@@ -75,5 +70,63 @@ export default () => (
         }
       ]}  
     />
+  
+    <Gallery
+      images={[
+        {
+          src: jakeImage1,
+          caption: 'Caption 1'
+        },
+        {
+          src: jakeImage2,
+          caption: 'Caption 2'
+        },
+        {
+          src: jakeImage3,
+          caption: `Caption 3`
+        },
+        {
+          src: jakeImage4,
+          caption: 'Caption 4'
+        },
+        {
+          src: jakeImage5,
+          caption: 'Caption 5'
+        },
+        {
+          src: jakeImage6,
+          caption: 'Caption 6'
+        }
+      ]}  
+    />
+    <Gallery
+      images={[
+        {
+          src: parentsImage1,
+          caption: 'Caption 1'
+        },
+        {
+          src: parentsImage2,
+          caption: 'Caption 2'
+        },
+        {
+          src: parentsImage3,
+          caption: `Caption 3`
+        },
+        {
+          src: parentsImage4,
+          caption: 'Caption 4'
+        },
+        {
+          src: parentsImage5,
+          caption: 'Caption 5'
+        },
+        {
+          src: parentsImage6,
+          caption: 'Caption 6'
+        }
+      ]}  
+    />
+    
   </div>
 )
