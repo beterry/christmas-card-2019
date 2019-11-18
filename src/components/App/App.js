@@ -4,8 +4,9 @@ import React from 'react';
 import './App.css';
 
 //import components
-import Header from '../Header/Header.component.js'
-import Gallery from '../Gallery/Gallery.component';
+import Header from '../Header/Header.component'
+import Gallery from '../Gallery/Gallery.component'
+import Footer from '../Footer/Footer.component'
 
 //import Ben images
 import benImage1 from '../../images/ben/image-ben-1.jpg'
@@ -120,6 +121,6 @@ export default () => (
         }
       ]}  
     />
-
+    <Footer />
   </div>
 )
