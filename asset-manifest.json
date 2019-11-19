@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/christmas-card-2019/static/css/main.dc3604b0.chunk.css",
+    "main.js": "/christmas-card-2019/static/js/main.daeeb9cf.chunk.js",
+    "main.js.map": "/christmas-card-2019/static/js/main.daeeb9cf.chunk.js.map",
+    "runtime-main.js": "/christmas-card-2019/static/js/runtime-main.d5fcc075.js",
+    "runtime-main.js.map": "/christmas-card-2019/static/js/runtime-main.d5fcc075.js.map",
+    "static/js/2.f8a6f179.chunk.js": "/christmas-card-2019/static/js/2.f8a6f179.chunk.js",
+    "static/js/2.f8a6f179.chunk.js.map": "/christmas-card-2019/static/js/2.f8a6f179.chunk.js.map",
+    "index.html": "/christmas-card-2019/index.html",
+    "precache-manifest.d146240c6661109e69c0bd48a15bd3c7.js": "/christmas-card-2019/precache-manifest.d146240c6661109e69c0bd48a15bd3c7.js",
+    "service-worker.js": "/christmas-card-2019/service-worker.js",
+    "static/css/main.dc3604b0.chunk.css.map": "/christmas-card-2019/static/css/main.dc3604b0.chunk.css.map",
+    "static/media/Header.module.css": "/christmas-card-2019/static/media/background.976b4aa6.svg",
+    "static/media/image-ap-1.jpg": "/christmas-card-2019/static/media/image-ap-1.71abb4a3.jpg",
+    "static/media/image-ap-2.jpg": "/christmas-card-2019/static/media/image-ap-2.0531101b.jpg",
+    "static/media/image-ap-3.jpg": "/christmas-card-2019/static/media/image-ap-3.5eb1828f.jpg",
+    "static/media/image-ap-4.jpg": "/christmas-card-2019/static/media/image-ap-4.b2ff4daf.jpg",
+    "static/media/image-ap-5.jpg": "/christmas-card-2019/static/media/image-ap-5.2caf7b14.jpg",
+    "static/media/image-ap-6.jpg": "/christmas-card-2019/static/media/image-ap-6.23f747a4.jpg",
+    "static/media/image-ben-1.jpg": "/christmas-card-2019/static/media/image-ben-1.8dd83c24.jpg",
+    "static/media/image-ben-2.jpg": "/christmas-card-2019/static/media/image-ben-2.a69e0e2d.jpg",
+    "static/media/image-ben-3.jpg": "/christmas-card-2019/static/media/image-ben-3.703dd92e.jpg",
+    "static/media/image-ben-4.jpg": "/christmas-card-2019/static/media/image-ben-4.5e4992cc.jpg",
+    "static/media/image-ben-5.jpg": "/christmas-card-2019/static/media/image-ben-5.3449b5c4.jpg",
+    "static/media/image-ben-6.png": "/christmas-card-2019/static/media/image-ben-6.98f131a7.png",
+    "static/media/image-jake-1.jpg": "/christmas-card-2019/static/media/image-jake-1.45263ec9.jpg",
+    "static/media/image-jake-2.jpg": "/christmas-card-2019/static/media/image-jake-2.e50bf479.jpg",
+    "static/media/image-jake-3.jpg": "/christmas-card-2019/static/media/image-jake-3.dce6a323.jpg",
+    "static/media/image-jake-4.jpg": "/christmas-card-2019/static/media/image-jake-4.1472bc82.jpg",
+    "static/media/image-jake-5.jpg": "/christmas-card-2019/static/media/image-jake-5.4a9ae551.jpg",
+    "static/media/image-jake-6.jpg": "/christmas-card-2019/static/media/image-jake-6.d7c206d1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5fcc075.js",
+    "static/js/2.f8a6f179.chunk.js",
+    "static/css/main.dc3604b0.chunk.css",
+    "static/js/main.daeeb9cf.chunk.js"
+  ]
+}
