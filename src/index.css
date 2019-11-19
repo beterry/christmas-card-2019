@@ -19,6 +19,20 @@ h1{
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 1200px){
+  h1{
+    font-size: 100px;
+    margin: 0 40px 20px 40px;
+  }
+}
+
+@media screen and (max-width: 470px){
+  h1{
+    font-size: 70px;
+    margin: 0 0px 20px 0px;
+  }
+}
+
 h2{
   font-family: 'Roboto', sans-serif;
   font-size: 35px;

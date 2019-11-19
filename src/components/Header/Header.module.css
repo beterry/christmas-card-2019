@@ -7,6 +7,13 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    position: relative;
+}
+
+@media screen and (max-width: 1200px){
+    .header{
+        margin-bottom: 0;
+    }
 }
 
 .content{
@@ -16,4 +23,22 @@
 
 .header p{
     margin: 0;
+}
+
+.thanks{
+    width: 100vw;
+}
+
+@media screen and (max-width: 900px){
+    .thanks{
+        position: absolute;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header p{
+        font-size: 14px;
+        font-weight: bold;
+    }
 }

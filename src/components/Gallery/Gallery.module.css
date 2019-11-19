@@ -4,6 +4,12 @@
     margin: 0 auto 200px auto;
 }
 
+@media screen and (max-width: 1000px){
+    .component{
+        margin: 0 auto 100px auto;
+    }
+}
+
 .selectedImage{
     width: 100%;
 
@@ -40,6 +46,36 @@
 
     
 }
+
+@media screen and (max-width: 780px){
+    .gallery{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .gallery{
+        flex-wrap: wrap;
+        width: 60%;
+    }
+    .gallery > div{
+        width: 31%;
+        padding-top: 31%;
+        margin-bottom: 10px;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .gallery{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .gallery > div{
+        width: 31%;
+        padding-top: 31%;
+        margin-bottom: 10px;
+    }
+  }
 
 .unselected{
     opacity: 0.25;
