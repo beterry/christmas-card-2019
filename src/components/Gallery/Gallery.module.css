@@ -17,6 +17,7 @@
 
 .selectedImage p{
     margin: 10px 0 25px 0;
+    font-weight: bold;
 }
 
 .gallery{

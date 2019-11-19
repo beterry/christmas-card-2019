@@ -68,56 +68,56 @@ export default () => (
     <Gallery
       images={[
         {
-          src: jakeImage1,
-          caption: 'Caption 1'
+          src: jakeImage2,
+          caption: 'Jake being granted his white coat after completing his first year of Optometry School at The Ohio State University'
         },
         {
-          src: jakeImage2,
-          caption: 'Caption 2'
+          src: jakeImage1,
+          caption: 'A night on the slopes'
         },
         {
           src: jakeImage3,
-          caption: `Caption 3`
+          caption: 'Jake and Evelyne at Epcot this past Fall after attending an Optemetry conference in Orlando, FL'
         },
         {
           src: jakeImage4,
-          caption: 'Caption 4'
+          caption: 'Jake kayaking on Twin Lakes in Colarado'
         },
         {
           src: jakeImage5,
-          caption: 'Caption 5'
+          caption: 'White coat ceremony in Columbus'
         },
         {
           src: jakeImage6,
-          caption: 'Caption 6'
+          caption: 'Jake educating youth about eye health/safety at "Fuel Up to Play 60" in Clevland on behalf of the American Optometric Association'
         }
       ]}  
     />
     <Gallery
       images={[
         {
+          src: parentsImage3,
+          caption: 'USA! USA! USA!'
+        },
+        {
           src: parentsImage1,
-          caption: 'Caption 1'
+          caption: 'Monkeying around in Pittsburgh'
         },
         {
           src: parentsImage2,
-          caption: 'Caption 2'
-        },
-        {
-          src: parentsImage3,
-          caption: `Caption 3`
+          caption: 'Beating Cincinnati'
         },
         {
           src: parentsImage4,
-          caption: 'Caption 4'
+          caption: 'Michael Family reunion in York'
         },
         {
           src: parentsImage5,
-          caption: 'Caption 5'
+          caption: 'Memorial Day with the Michael family in Lititz'
         },
         {
           src: parentsImage6,
-          caption: 'Caption 6'
+          caption: 'Arizona getaway'
         }
       ]}  
     />
