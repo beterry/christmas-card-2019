@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af0780f496e255acc3ae4eabefe3a3b9",
+    "revision": "0195823c4aa88c0c872a3977726c8f3d",
     "url": "/christmas-card-2019/index.html"
   },
   {
-    "revision": "8507e96ee4abc8b50378",
-    "url": "/christmas-card-2019/static/css/main.dc3604b0.chunk.css"
+    "revision": "a23439f2d37f3d4b7e1e",
+    "url": "/christmas-card-2019/static/css/main.e228dfc8.chunk.css"
   },
   {
-    "revision": "d4d43c2474ea0ffec9ba",
-    "url": "/christmas-card-2019/static/js/2.f8a6f179.chunk.js"
+    "revision": "ddaae1d2b47e69d4ed10",
+    "url": "/christmas-card-2019/static/js/2.8cd8e18d.chunk.js"
   },
   {
-    "revision": "8507e96ee4abc8b50378",
-    "url": "/christmas-card-2019/static/js/main.daeeb9cf.chunk.js"
+    "revision": "a23439f2d37f3d4b7e1e",
+    "url": "/christmas-card-2019/static/js/main.99d0cb92.chunk.js"
   },
   {
     "revision": "65e626aa71689a6ed9db",
@@ -24,16 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/christmas-card-2019/static/media/background.976b4aa6.svg"
   },
   {
-    "revision": "71abb4a3af9e3a4f05fb12761ac558c0",
-    "url": "/christmas-card-2019/static/media/image-ap-1.71abb4a3.jpg"
-  },
-  {
-    "revision": "0531101b3f31b434ea4136b2fb749a58",
-    "url": "/christmas-card-2019/static/media/image-ap-2.0531101b.jpg"
-  },
-  {
-    "revision": "5eb1828f0d7275ba023212b38a09ac97",
-    "url": "/christmas-card-2019/static/media/image-ap-3.5eb1828f.jpg"
+    "revision": "bb7e5ebcd27fc0d35f00f990a2392e13",
+    "url": "/christmas-card-2019/static/media/image-ap-2.bb7e5ebc.jpg"
   },
   {
     "revision": "b2ff4dafba0381fdb5708ac77a5ab140",
@@ -46,6 +38,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "23f747a44658e49648619553dca5a329",
     "url": "/christmas-card-2019/static/media/image-ap-6.23f747a4.jpg"
+  },
+  {
+    "revision": "e15f7a96bf9a877f3ad09e02a7767f31",
+    "url": "/christmas-card-2019/static/media/image-ap-7.e15f7a96.jpg"
+  },
+  {
+    "revision": "12e09b1c4fb3dd5593770027563b22c0",
+    "url": "/christmas-card-2019/static/media/image-ap-8.12e09b1c.jpg"
   },
   {
     "revision": "8dd83c2482af7708dde5b7650fb99dea",
