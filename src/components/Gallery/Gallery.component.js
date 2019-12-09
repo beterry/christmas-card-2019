@@ -12,7 +12,10 @@ const Gallery = ({images}) => {
         <div className={styles.component}>
             <div className={styles.selectedImage}>
                 <img src={featured.src} alt={featured.caption} />
-                <p>{featured.caption}</p>
+                <div className={styles.caption}>
+                    <p>{featured.caption}</p>
+                </div>
+                
             </div>
             <div className={styles.gallery}>
                 {images.map((image, index) => 

@@ -1,5 +1,5 @@
 .header{
-    height: 100vh;
+    min-height: 100vh;
     background: url('../../images/header/background.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1200px){
     .header{
-        margin-bottom: 0;
+        margin-bottom: 50px;
     }
 }
 
@@ -21,18 +21,20 @@
     margin-bottom: 40vh;
 }
 
-.header p{
-    margin: 0;
+.header h1{
+    padding: 0 20px 0 20px;
 }
 
-.thanks{
-    width: 100vw;
+.header p{
+    margin: 0;
 }
 
 @media screen and (max-width: 900px){
     .thanks{
         position: absolute;
-        bottom: 50px;
+        bottom: 30px;
+        left: 0;
+        right: 0;
     }
 }
 

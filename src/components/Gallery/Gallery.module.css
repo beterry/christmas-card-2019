@@ -21,9 +21,13 @@
     border-radius: 20px;
 }
 
-.selectedImage p{
-    margin: 10px 0 25px 0;
+.caption{
+    margin: 0 auto 0 auto;
     font-weight: bold;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .gallery{
@@ -51,6 +55,7 @@
     .gallery{
         width: 100%;
     }
+    
   }
 
   @media screen and (max-width: 600px){
@@ -62,6 +67,9 @@
         width: 31%;
         padding-top: 31%;
         margin-bottom: 10px;
+    }
+    .caption{
+        min-height: 120px;
     }
   }
 

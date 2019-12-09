@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import styles
-import './App.css';
+import styles from './App.css';
 
 //import components
 import Header from '../Header/Header.component'
@@ -25,17 +25,45 @@ import jakeImage5 from '../../images/jake/image-jake-5.jpg'
 import jakeImage6 from '../../images/jake/image-jake-6.jpg'
 
 //import Pam & Andy images
-import parentsImage1 from '../../images/pam-andy/image-ap-1.jpg'
 import parentsImage2 from '../../images/pam-andy/image-ap-2.jpg'
-import parentsImage3 from '../../images/pam-andy/image-ap-3.jpg'
 import parentsImage4 from '../../images/pam-andy/image-ap-4.jpg'
 import parentsImage5 from '../../images/pam-andy/image-ap-5.jpg'
 import parentsImage6 from '../../images/pam-andy/image-ap-6.jpg'
+import parentsImage7 from '../../images/pam-andy/image-ap-7.jpg'
+import parentsImage8 from '../../images/pam-andy/image-ap-8.jpg'
 
 
 export default () => (
-  <div>
+  <div className={styles.container}>
     <Header />
+    <Gallery
+      images={[
+        {
+          src: parentsImage8,
+          caption: 'December in Alexandria'
+        },
+        {
+          src: parentsImage2,
+          caption: 'Beating Cincinnati'
+        },
+        {
+          src: parentsImage4,
+          caption: 'Michael Family reunion in York'
+        },
+        {
+          src: parentsImage5,
+          caption: 'Memorial Day with the Michael family in Lititz'
+        },
+        {
+          src: parentsImage6,
+          caption: 'Weekend getaway to Arizona. Best of 12 trips that Andy planned this year.'
+        },
+        {
+          src: parentsImage7,
+          caption: 'Andy got a new job at Tekgard in York, PA. We will be putting the house on the market sometime soon.'
+        }
+      ]}  
+    />
     <Gallery
       images={[
         {
@@ -93,34 +121,7 @@ export default () => (
         }
       ]}  
     />
-    <Gallery
-      images={[
-        {
-          src: parentsImage3,
-          caption: 'USA! USA! USA!'
-        },
-        {
-          src: parentsImage1,
-          caption: 'Monkeying around in Pittsburgh'
-        },
-        {
-          src: parentsImage2,
-          caption: 'Beating Cincinnati'
-        },
-        {
-          src: parentsImage4,
-          caption: 'Michael Family reunion in York'
-        },
-        {
-          src: parentsImage5,
-          caption: 'Memorial Day with the Michael family in Lititz'
-        },
-        {
-          src: parentsImage6,
-          caption: 'Arizona getaway'
-        }
-      ]}  
-    />
+    
     <Footer />
   </div>
 )
