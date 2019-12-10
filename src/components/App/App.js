@@ -117,7 +117,7 @@ export default () => (
         },
         {
           src: jakeImage6,
-          caption: 'Jake educating youth about eye health/safety at "Fuel Up to Play 60" in Clevland on behalf of the American Optometric Association'
+          caption: 'Jake educating youth about eye health/safety at "Fuel Up to Play 60" in Cleveland on behalf of the American Optometric Association'
         }
       ]}  
     />
